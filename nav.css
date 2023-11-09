@@ -1,0 +1,15 @@
+/*Nav Bar*/
+nav {
+    background-color: sandybrown;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    border: 4px goldenrod solid;
+    border-radius: 20px;
+}
+nav a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 20px;
+}

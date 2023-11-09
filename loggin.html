@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="icon" type="image/x-icon" href="Image/LOGO!.png">
+    <title>Register | Paradise</title>
+    <link rel="icon" type="Image/x-icon" href="Image1/logo.svg">
+    <style>
+        form {
+            background-color: aliceblue;
+            border: solid 2px aqua;
+            text-align: center;
+            width: 27%;
+            height: 100%;
+            margin: auto;
+        }
+        input {
+            padding:6px;
+        }
+        button {
+            padding: 6px;
+            width: 30%;
+        }
+        legend {
+            background-color: lightskyblue;
+            font-size: large;
+            color:blue;
+        }
+        
+    </style>
+</head>
+<body>
+    <form>
+        <legend>Please Register to Book.</legend>
+        <!--Input Elements--><br>
+        <input type="text" id="fname" name="fname" placeholder="Full-name">
+        ㅤㅤ
+        <input type="text" id="email" placeholder="Email"><br><br>
+
+        <!--Radio Button-->
+        <label>Choose Your Payment Method</label><br>
+        <input type="radio" id="wave" name="Payment" value="wave">
+        <label>Wave</label>
+        <input type="radio" id="aya" name="Payment" value="aya">
+        <label>AYA</label>
+        
+        <input type="radio" id="KBZ" name="Payment" value="KBZ">
+        <label>KBZ</label>
+
+        <br><br>
+
+        <!--Input Elements-->
+        <input type="password" id="password" name="psw" placeholder="*password*">
+        ㅤㅤ
+        <input type="text" id="patterns" placeholder="Type of room (single,double,family.)"><br><br>
+        ㅤㅤ
+        <!--Buttons-->
+        <a href="booking.html"><button type="button">Cancel</button></a>
+        <!--Buttons-->
+        <button type="button"onclick="alert('You have booked this resort.')">Submit</button>
+        ㅤㅤ<br><br>
+    </form>
+</body>
+</html>
